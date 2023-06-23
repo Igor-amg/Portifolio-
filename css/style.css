@@ -5,6 +5,7 @@ header {
   display: flex;
   justify-content: space-between ;
 }
+
 nav {
   text-align: end;
 }
@@ -19,15 +20,13 @@ a {
   text-decoration: none;
   margin-right: 30px;
 }
-a::before {
-  content: "";  
-  background-color: #8ecae6;
-  width: 10px;
-  height: 10px;
-  margin-right: 10px;
+
+header nav a:hover{
+  text-decoration: underline #ffb703 3px,  ;
+  transform: scale(1.1,1.1);
 }
 
-#button {
+.button {
   display: inline-block;
   background-color: #8ecae6;
   padding: 0 20px;
@@ -37,6 +36,41 @@ a::before {
   box-shadow: 5px 5px 0 #000;
 }
 
-#button:hover{
+.button:hover{
     transform: scale(1.1,1.1);
+}
+main{
+  width: 100%;
+  height: 797px;
+  background: rgb(38,70,83);
+  background: radial-gradient(circle, rgba(38,70,83,1) 20%, rgba(3,4,94,1) 100%);
+}
+
+#main-container{
+  background-color: #0466c8;
+  width: 627px;
+  height: 184px;
+  box-shadow: 5px 5px 0 #000;
+  margin-left: 40px;
+  
+}
+h1{
+  font-size: 80px;
+  color: #fff;
+  text-shadow: 4px 4px 0 #000;
+  font-family: 'Teko', sans-serif;
+  text-align: center;
+  max-height: 40px;
+}
+h2{
+  font-size: 65px;
+  text-align: center;
+  color: #ffb703;
+  text-shadow: 4px 4px 0 #000;
+  margin-top: 40px;
+  font-family: 'Teko', sans-serif;
+
+}
+main .button{
+  margin-left: 30px;
 }
