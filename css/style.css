@@ -3,10 +3,10 @@ html {
 }
 header {
   background-color: #219ebc;
-  border-bottom: 10px solid #023047 ;
+  border-bottom: 10px solid #023047;
   padding: 10px 20px;
   display: flex;
-  justify-content: space-between ;
+  justify-content: space-between;
 }
 
 nav {
@@ -24,9 +24,9 @@ a {
   margin-right: 30px;
 }
 
-header nav a:hover{
-  text-decoration: underline #ffb703 3px,  ;
-  transform: scale(1.1,1.1);
+header nav .menu-nav:hover {
+  text-decoration: underline #ffb703 3px;
+  transform: scale(1.1, 1.1);
 }
 
 .button {
@@ -39,60 +39,62 @@ header nav a:hover{
   box-shadow: 5px 5px 0 #000;
 }
 
-.button:hover{
-    transform: scale(1.1,1.1);
+.button:hover {
+  transform: scale(1.1, 1.1);
 }
-#info-container{
-  height:497px;
+#info-container {
+  height: 497px;
   padding-top: 116px;
   padding-left: 91px;
-  background: rgb(38,70,83);
-  background: radial-gradient(circle, rgba(38,70,83,1) 20%, rgba(3,4,94,1) 100%);
+  background: rgb(38, 70, 83);
+  background: radial-gradient(
+    circle,
+    rgba(38, 70, 83, 1) 20%,
+    rgba(3, 4, 94, 1) 100%
+  );
   border-bottom: 10px solid #023047;
 }
 
-#main-container{
+#main-container {
   background-color: #0466c8;
   width: 627px;
   height: 184px;
   box-shadow: 5px 5px 0 #000;
   margin-left: 91px;
   text-align: center;
-  
 }
-#main-container h1{
+#main-container h1 {
   font-size: 80px;
   color: #fff;
   text-shadow: 4px 4px 0 #000;
-  font-family: 'Teko', sans-serif;
+  font-family: "Teko", sans-serif;
   max-height: 40px;
 }
-#main-container h2{
+#main-container h2 {
   font-size: 65px;
   color: #ffb703;
   text-shadow: 4px 4px 0 #000;
   margin-top: 40px;
-  font-family: 'Teko', sans-serif;
-
+  font-family: "Teko", sans-serif;
 }
-#info-container .button{
+#info-container .button {
   margin-left: 112px;
   margin-top: 38px;
   cursor: pointer;
 }
 
-#info-container .spc{
+#info-container .spc {
   margin-left: 181px;
 }
 
-#skills-container{
-  background-color:#8ecae6 ;
+#skills-container {
+  background-color: #8ecae6;
   border-bottom: solid 10px #219ebc;
   height: 730px;
   display: block;
 }
 
-#skills-title{
+#skills-title {
   font-size: 60px;
   padding-top: 50px;
   color: #ffb703;
@@ -100,26 +102,19 @@ header nav a:hover{
   margin-bottom: 62px;
   text-align: center;
 }
-.item{
+.item {
   display: flex;
   padding-left: 400px;
 }
-.skill{
+.skill {
   font-size: 25px;
   text-align: left;
 }
-.skill-logo{
-  margin-right:32.33px ;
+.skill-logo {
+  margin-right: 32.33px;
   margin-bottom: 38px;
-  
 }
 .bar{
-  width: 240.877px;
-  height: 30px;
-  border: 5px solid #000 ;
-  display: flex;
-  background-color: #0466c8;
-}
-.info{
- 
+  width: 240px;
+  height: 40px;
 }
