@@ -94,7 +94,7 @@ header nav .menu-nav:hover {
   display: block;
 }
 
-#skills-title {
+.titles-h3 {
   font-size: 60px;
   padding-top: 50px;
   color: #ffb703;
@@ -117,4 +117,26 @@ header nav .menu-nav:hover {
 .bar{
   width: 240px;
   height: 40px;
+}
+#projetos-container{
+  background: radial-gradient(
+    circle,
+    rgba(38, 70, 83, 1) 20%,
+    rgba(3, 4, 94, 1) 100%
+  );
+  /*height: 520px;*/
+}
+#projetos-container .titles-h3{
+  margin-bottom: 10px;
+}
+
+.lol{
+  width: 330px;
+  height: 330px;
+  display: flex;
+  justify-content: first baseline;
+}
+
+#projeto-lol{
+  padding-left: 140px;
 }
