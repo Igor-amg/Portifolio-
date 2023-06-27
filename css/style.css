@@ -1,17 +1,6 @@
 html {
   scroll-behavior: smooth;
 }
-header {
-  background-color: #219ebc;
-  border-bottom: 10px solid #023047;
-  padding: 10px 20px;
-  display: flex;
-  justify-content: space-between;
-}
-
-nav {
-  text-align: end;
-}
 
 a {
   display: inline-flex;
@@ -21,61 +10,57 @@ a {
   font-family: "Kanit", sans-serif;
   font-weight: 500;
   text-decoration: none;
-  margin-right: 30px;
+  
 }
-
-header nav .menu-nav:hover {
-  text-decoration: underline #ffb703 3px;
-  transform: scale(1.1, 1.1);
+#nav-header{
+  display: flex;
 }
-
 .button {
   display: inline-block;
-  background-color: #8ecae6;
   padding: 0 20px;
   line-height: 60px;
   margin-right: 0;
   height: 60px;
-  box-shadow: 5px 5px 0 #000;
+}
+.button {
+  border-color: #219ebc;
+  border-radius: 10px;
+  color: #fff;
+  box-shadow: 0 0 40px 40px #219ebc inset, 0 0 0 0 #219ebc;
+  transition: all 150ms ease-in-out;
+}
+.button:hover {
+  box-shadow: 0 0 10px 0 #219ebc inset, 0 0 10px 4px #219ebc;
 }
 
-.button:hover {
-  transform: scale(1.1, 1.1);
-}
 #info-container {
-  height: 497px;
-  padding-top: 116px;
+  height: 100vh;
   padding-left: 91px;
-  background: rgb(38, 70, 83);
-  background: radial-gradient(
-    circle,
-    rgba(38, 70, 83, 1) 20%,
-    rgba(3, 4, 94, 1) 100%
-  );
+  text-align: center;
+  background-image: url(/assets/img/teclado-zoom-1.png);
+  background-size: cover;
   border-bottom: 10px solid #023047;
 }
 
-#main-container {
-  background-color: #0466c8;
-  width: 627px;
-  height: 184px;
-  box-shadow: 5px 5px 0 #000;
-  margin-left: 91px;
-  text-align: center;
-}
 #main-container h1 {
-  font-size: 80px;
+  font-size: 120px;
+  position: absolute;
   color: #fff;
-  text-shadow: 4px 4px 0 #000;
-  font-family: "Teko", sans-serif;
+  text-shadow: 6px 6px 3px #000;
+  font-family: "Quicksand", sans-serif;
   max-height: 40px;
+  text-align: left;
+  margin-bottom: 20px;
+  top: 100px;
 }
 #main-container h2 {
-  font-size: 65px;
+  font-size: 100px;
+  position: absolute;
   color: #ffb703;
-  text-shadow: 4px 4px 0 #000;
-  margin-top: 40px;
-  font-family: "Teko", sans-serif;
+  text-align: left;
+  text-shadow: 6px 6px 3px #000;
+  margin-top: 240px;
+  font-family: "Quicksand", sans-serif;
 }
 #info-container .button {
   margin-left: 112px;
@@ -114,11 +99,11 @@ header nav .menu-nav:hover {
   margin-right: 32.33px;
   margin-bottom: 38px;
 }
-.bar{
+.bar {
   width: 240px;
   height: 40px;
 }
-#projetos-container{
+#projetos-container {
   background: radial-gradient(
     circle,
     rgba(38, 70, 83, 1) 20%,
@@ -126,17 +111,17 @@ header nav .menu-nav:hover {
   );
   /*height: 520px;*/
 }
-#projetos-container .titles-h3{
+#projetos-container .titles-h3 {
   margin-bottom: 10px;
 }
 
-.lol{
+.lol {
   width: 330px;
   height: 330px;
   display: flex;
   justify-content: first baseline;
 }
 
-#projeto-lol{
+#projeto-lol {
   padding-left: 140px;
 }
